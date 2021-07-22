@@ -9,7 +9,6 @@ class LambdaDemo extends Component {
   }
 
   render() {
-    const { loading, msg } = this.state
 
     return (
       <p>
