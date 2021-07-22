@@ -3,10 +3,6 @@ import logo from "./logo.svg"
 import "./App.css"
 
 class LambdaDemo extends Component {
-  constructor(props) {
-    super(props)
-    
-  }
 
   render() {
 
