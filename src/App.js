@@ -1,30 +1,26 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
-
-class LambdaDemo extends Component {
-
-  render() {
-
-    return (
-      <p>
-        HELLLOOOO
-      </p>
-    )
-  }
-}
+import Header from './components/Header'
+import Home from './components/Home'
+import About from './components/About'
+import AMS from './components/AMS'
+import Seekamentor from './components/Seekamentor'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
-        </header>
+        <Header />
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/ams' component={AMS} />
+            <Route path='/seekamentor' component={Seekamentor} />
+          </Switch>
+        </Router>
+        
       </div>
     )
   }
