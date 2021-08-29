@@ -1,8 +1,10 @@
 import React, { Component } from "react"
-
+import Image from 'react-bootstrap/Image'
+import mainAMS from "../assets/AMS/mainAMS.png";
 import before from "../assets/AMS/before.png";
 import after from "../assets/AMS/after.png";
-
+import team from "../assets/AMS/team.png"
+import teamTwo from "../assets/AMS/teamTwo.jpg";
 import icon from "../assets/AMS/icon.png"
 import { Container, Row, Col, Figure } from 'react-bootstrap';
 import { Card, CardGroup } from 'react-bootstrap';
@@ -31,7 +33,7 @@ class AMS extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="AMS">
-      
+        <Image src={mainAMS} fluid />
         <div className="project">
           <h2 className="projectTitle" Style="font-size:48px;font-weight:700;margin-top:20px;">Access Management System</h2>
           <h5 className="projectTags">FinTech &middot; UX Design &middot; Frontend development</h5>
@@ -94,7 +96,10 @@ class AMS extends Component {
 
           <h5 className="projectTopic">Dream Team</h5>
           <p>The time when we bid our final goodbyes. Even though it was virtual, it felt the closest we were since we had come full circle. No one was as sad as Ed's cat(she's right in the center). This picture is a testament of the values and bond we shared as a team and the amazing milestones we achieved together. I'm forever grateful for learning how Empathy at Work can bring a huge difference in our day-to-day lives. </p>
-      
+          <Row>
+            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 2, isOpen: true })} src={team} rounded fluid /><br />My last working day!</Col>
+            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 3, isOpen: true })} src={teamTwo} rounded fluid /><br />Team outing in Netherlands</Col>
+          </Row>
           {isOpen && (
             <Lightbox
               mainSrc={images[photoIndex]}
