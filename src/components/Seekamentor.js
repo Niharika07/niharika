@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Image from 'react-bootstrap/Image'
+
 import mainSeekamentor from "../assets/Seekamentor/mainSeekamentor.png";
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -9,7 +9,7 @@ class Seekamentor extends Component {
   render() {
     return (
       <div className="Seekamentor">
-        <Image src={mainSeekamentor} fluid />
+      
         <div className="project">
           <h2 className="projectTitle" Style="font-size:48px;font-weight:700;margin-top:20px;">Seekamentor</h2>
           <h5 className="projectTags">EdTech &middot; UX Design &middot; UX Research</h5>

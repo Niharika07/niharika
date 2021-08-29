@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import logo from '../assets/Logo.svg'
+
 
 class Header extends Component {
   render() {
