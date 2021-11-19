@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import AMS from './components/AMS'
 import Seekamentor from './components/Seekamentor'
+import Health from './components/healthcare'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/about' component={About} />
             <Route path='/ams' component={AMS} />
             <Route path='/seekamentor' component={Seekamentor} />
+            <Route path='/health' component={Health} />
           </Switch>
         </Router>
         

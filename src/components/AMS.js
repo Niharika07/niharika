@@ -1,8 +1,11 @@
 import React, { Component } from "react"
 import Image from 'react-bootstrap/Image'
 import mainAMS from "../assets/AMS/mainAMS.png";
-import before from "../assets/AMS/before.png";
-import after from "../assets/AMS/after.png";
+import access from "../assets/AMS/accessTools.png";
+import quote from "../assets/AMS/quote.png";
+import landing from "../assets/AMS/landing.jpg";
+import searchAccounts from "../assets/AMS/searchAccounts.jpg";
+import details from "../assets/AMS/details.jpg";
 import team from "../assets/AMS/team.png"
 import teamTwo from "../assets/AMS/teamTwo.jpg";
 import icon from "../assets/AMS/icon.png"
@@ -14,8 +17,6 @@ import "react-image-lightbox/style.css";
 import mock from "../assets/AMS/mock.mov"
 
 const images = [
-  require('../assets/AMS/before.png'),
-  require('../assets/AMS/after.png'),
   require('../assets/AMS/team.png'),
   require('../assets/AMS/teamTwo.jpg'),
 ];
@@ -34,10 +35,10 @@ class AMS extends Component {
     return (
       <div className="AMS">
         <Image src={mainAMS} fluid />
-        <div className="project">
+        <div className="project" Style="margin-bottom:4rem;">
           <h2 className="projectTitle" Style="font-size:48px;font-weight:700;margin-top:20px;">Access Management System</h2>
-          <h5 className="projectTags">FinTech &middot; UX Design &middot; Frontend development</h5>
-          <h5 className="projectIntro">Redesigning an application feature for an undisclosed European banking client with their Internet banking team to help over 1 million customers of the bank manage their means of access.</h5>
+          <h2 className="projectTags" Style="color:grey;">Banking &middot; UX Design &middot; Frontend development</h2>
+          <span className="projectIntro" Style="background-color:#b8e2ff;font-size:24px;">Redesigning an application feature for an undisclosed European banking client with their Internet banking team to manage the Means of Access that the customers have with the bank.</span>
           <Container className="projectContent" fluid>
             <Row>
               <Col>
@@ -59,46 +60,81 @@ class AMS extends Component {
               </Col>
             </Row>
           </Container>
-          <p>For the safety and privacy of the application, it will be referred to as Access Management System. I worked with a team of 2 Backend developers, a Business Analyst, a Scrum Master and a Product owner, my dream team.</p>
+          <p>For the safety and privacy of the application, it will be referred to as Access Management System. I worked with a team of 2 Backend developers, a Business Analyst, a Scrum Master and a Product owner.</p>
 
 
           <h5 className="projectTopic">Background</h5>
-          <p>During Summer’2020 while I was working with my client on Frontend automation strategies, a team from Internet banking reached out to me for redesigning an application that allowed employees of the bank to manage the means of access which the customers have with the bank. We will refer Means of access as Access Tools.</p>
-          <p>Access Tools are ways through which a person can access their bank account and could be divided into 3 main categories:
-            1. Physical Device : a debit card, credit card
-            2. Accessing via mobile : PIN 5(the 5 digit pin that you provide in a mobile banking app)
-            3. Accessing via web : Userid and password
-            The bank’s vision was to give control and autonomy to its customers for managing their means of access. </p>
+          <p>During Summer’2020 I was developing the Front-end as part of modernizing a legacy application, called Access Management System for my client - a leading bank based out of Netherlands, when I realized how the interface lacked interactivity and usability. 
+            Several heuristic violations were observed. Sooner than later, I took the responsibility of redesigning the application.
 
 
+          <h5 className="projectTopic">Understanding the problem</h5>
+            Access Management System is an application that was developed 20 years ago. It allowed employees of the bank to manage the Means of Access which the customers have with the bank.</p>
+          <p><strong>Means of Access are ways through which a person can access their bank account.</strong> The 3 Means of Access which the customers have are:
+            <Image src={access} Style="padding-top:3rem;padding-bottom:3rem;" fluid />
+            Being one of the financial institutions focused on user-centric design, there were many issues with the application. Some of them being :
+           <p> 1. Several Heuristics violations - 
+              <ul><li>Human limitations - There was too many operations that a user had to perform on one screen which increased their cognitive load.</li>
+              <li>Human limitations - There was too many operations that a user had to perform on one screen which increased their cognitive load.</li>
+              <li>Human limitations - There was too many operations that a user had to perform on one screen which increased their cognitive load.</li>
+               </ul></p>
+               <p>  2. Low task success rate - for a first time user, it was extremely difficult to successfully complete a task without regular support from fellow employees. </p>
+          <p>  3. High task completion time - since the application was 20 years old, there were too many unnecessary steps that a user had to go through to complete a task. </p>
+	   <p> 4. High error rates - since the font was too small, users always ended up clicking on wrong information, leading to high error rates with the application.</p>
+
+    </p>
+    </div>
+<div Style="background-color:#d3e6be;padding-top:8rem;padding-bottom:8rem;">
+<div className="project">
+    <Image src={quote} fluid />
+    </div>
+</div>
+    <div className="project">
           <h5 className="projectTopic">Solution</h5>
           <video controls autoPlay loop muted class="d-flex justify-content-center">
             <source src={mock} type="video/mp4"></source>
           </video>
-          <CardGroup>
-            <Card Style="max-width:32rem;">
-              <Card.Img variant="top" src={before} onClick={() => this.setState({ photoIndex: 0, isOpen: true })} /> <Card.Text>Before</Card.Text></Card>
-            <Card Style="max-width:32rem;"><Card.Img variant="top" src={after} onClick={() => this.setState({ photoIndex: 1, isOpen: true })} /> <Card.Text>After</Card.Text></Card>
-          </CardGroup>
-
+        
 
           <h5 className="projectTopic">Research</h5>
-          <p>I first reached out to the product owner to understand the existing application and then conducted user interviews with existing users. Some of the questions I asked were:</p>
-          <p>To further understand the problem space, I organised meetings with IT operations team to study the incidents they received from the existing application. These meetings turned out to be insightful since I discovered a common frustration in them - <b>bad user experience</b>. </p>
-          <div class="eval_research">
-            <li>What are their pain points while interacting with the current UI?</li>
-            <li>What is the lifecycle of a means of access?</li>
-            <li>What are the unique identities for searching a means of access?</li>
-            <li>Do we need Internationalization?</li>
-            <li>What are the specific details of a means of access that a user want to see?</li>
-            <li>What actions can a user perform on their MOA?</li>
-          </div>
+          <p>I first reached out to the product owner to understand the existing application.
+            Then, I took a survey and held semi-structured interviews with the users of the application to understand their pain-points and frustrations with the application.
+          </p><p> The survey was created in a way to understand <strong>how frequently the application will be used</strong> and what all <strong>features must be covered</strong> in the solution along with the <strong>priority of each feature to inform our Product Roadmap</strong>.
+          </p>
 
-          <h5 className="projectTopic">Dream Team</h5>
+          <p>To further understand the problem space, I organised meetings with IT operations team to study the incidents they received from the existing application. These meetings turned out to be insightful since I discovered a common frustration in them - <b>bad user experience</b>. </p>
+
+
+          <h5 className="projectTopic">Gathering Insights</h5>
+          <Row Style="margin-bottom:4rem;">
+            <Col xs={12} md={5} className="d-flex align-items-center"> <p><h5> <strong className="highlightInsights">Insight #1</strong></h5>
+             Display all linked accounts that a person has with the bank.</p></Col>
+             <Col md={2}></Col>
+            <Col xs={12} md={5}>  <p><h5><strong className="highlightInsights">Insight #2</strong></h5>
+            Display all means of access linked to each account along with their details.</p>
+            </Col>
+          </Row>
+          <Row Style="margin-bottom:8rem;">
+            <Col xs={12} md={5} className="d-flex align-items-center">  <p><h5><strong className="highlightInsights">Insight #3</strong></h5>
+            Manage lifecycle of every means of access i.e manage the actions that a user can perform on each Means of access which are - Block, Unblock, Add and Delete.</p></Col>
+            <Col md={2}></Col>
+            <Col xs={12} md={5}>  <p><h5><strong className="highlightInsights">Insight #4</strong></h5>
+            Show history of all actions that have been performed.</p>
+            </Col>
+          </Row>
+
+
+          <h5 className="projectTopic">Converting Insights into Designs</h5>
+          <Image src={landing} fluid />
+          <Image src={searchAccounts} fluid />
+          <Image src={details} fluid />
+
+
+          <h5 className="projectTopic">My Dream Team</h5>
           <p>The time when we bid our final goodbyes. Even though it was virtual, it felt the closest we were since we had come full circle. No one was as sad as Ed's cat(she's right in the center). This picture is a testament of the values and bond we shared as a team and the amazing milestones we achieved together. I'm forever grateful for learning how Empathy at Work can bring a huge difference in our day-to-day lives. </p>
           <Row>
-            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 2, isOpen: true })} src={team} rounded fluid /><br />My last working day!</Col>
-            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 3, isOpen: true })} src={teamTwo} rounded fluid /><br />Team outing in Netherlands</Col>
+            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 0, isOpen: true })} src={team} rounded fluid /><br />My last working day!</Col>
+            <Col xs={12} md={6}> <Image onClick={() => this.setState({ photoIndex: 1, isOpen: true })} src={teamTwo} rounded fluid /><br />Team outing in Netherlands</Col>
           </Row>
           {isOpen && (
             <Lightbox
