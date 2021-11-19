@@ -65,7 +65,6 @@ class Seekamentor extends Component {
 
         <div Style="background-color:#e6e8e8;">
           <div className="seekData">
-            <h5 className="seekTopic"></h5>
             <Container fluid>
 
               <h5>Tackling the problem</h5> <p>The ecosystem of mentorship primarily consists of mentors and mentees. We began our process with <strong>Secondary Research</strong> where we understood the <strong>context of the problem</strong> we were solving.</p>

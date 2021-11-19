@@ -10,7 +10,6 @@ import team from "../assets/AMS/team.png"
 import teamTwo from "../assets/AMS/teamTwo.jpg";
 import icon from "../assets/AMS/icon.png"
 import { Container, Row, Col, Figure } from 'react-bootstrap';
-import { Card, CardGroup } from 'react-bootstrap';
 import "./project.css"
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";

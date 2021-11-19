@@ -3,7 +3,7 @@ import Image from 'react-bootstrap/Image'
 import health from "../assets/Healthcare/health.png";
 import persona from "../assets/Healthcare/Persona.png";
 
-import { Container, Row, Col, Figure } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import "./healthcare.css"
 
 
