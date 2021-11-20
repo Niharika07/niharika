@@ -14,16 +14,16 @@ class Home extends Component {
        
         <h3 Style="border-bottom: 1px solid rgb(236, 232, 232);color:grey;font-weight:600;margin-top:3rem;padding-bottom:1rem;">My Work</h3>
         <CardGroup>
-          <Card>
-            <Card.Link href="/health"><Card.Img variant="top" src={health} /></Card.Link>
+        <Card>
+            <Card.Link href="/ams"><Card.Img variant="top" src={ams} /></Card.Link>
             <Card.Body>
-              <Card.Title>Quicker Fixer Upper</Card.Title>
+              <Card.Title>Access Management System</Card.Title>
               <Card.Text>
-                <span Style="font-size:24px;color:grey;">Healthcare &middot; UX Design &middot; UX Research</span>
+                <span Style="font-size:24px;color:grey;">Banking &middot; UX Design &middot; Frontend development</span>
               </Card.Text>
               <Card.Text>
-                <span Style="font-size:20px;">How to make information around healthcare plans accessible to international students?</span><br />
-                Designing a mobile application for international students to find relevant information regarding their coverage without having to access multiple resources.
+                <span Style="font-size:20px;">How to manage means of access a person has with the bank?</span><br />
+                Redesigning an application feature for an undisclosed European banking client with their Internet banking team to help the customers of the bank manage their means of access.
               </Card.Text>
             </Card.Body>
 
@@ -43,22 +43,22 @@ class Home extends Component {
             </Card.Body>
           </Card>
         </CardGroup>
-
-        <CardGroup>
-          <Card>
-            <Card.Link href="/ams"><Card.Img variant="top" src={ams} /></Card.Link>
+        <Card>
+            <Card.Link href="/health"><Card.Img variant="top" src={health} /></Card.Link>
             <Card.Body>
-              <Card.Title>Access Management System</Card.Title>
+              <Card.Title>Quicker Fixer Upper</Card.Title>
               <Card.Text>
-                <span Style="font-size:24px;color:grey;">Banking &middot; UX Design &middot; Frontend development</span>
+                <span Style="font-size:24px;color:grey;">Healthcare &middot; UX Design &middot; UX Research</span>
               </Card.Text>
               <Card.Text>
-                <span Style="font-size:20px;">How to manage means of access a person has with the bank?</span><br />
-                Redesigning an application feature for an undisclosed European banking client with their Internet banking team to help over 1 million customers of the bank manage their means of access.
+                <span Style="font-size:20px;">How to make information around healthcare plans accessible to international students?</span><br />
+                Designing a mobile application for international students to find relevant information regarding their coverage without having to access multiple resources.
               </Card.Text>
             </Card.Body>
 
           </Card>
+        <CardGroup>
+        
 
          
         </CardGroup>

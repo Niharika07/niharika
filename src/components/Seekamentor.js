@@ -64,7 +64,7 @@ class Seekamentor extends Component {
         </div>
 
         <div Style="background-color:#e6e8e8;">
-          <div className="seekData">
+          <div className="seekData" Style="padding-top:7rem;">
             <Container fluid>
 
               <h5>Tackling the problem</h5> <p>The ecosystem of mentorship primarily consists of mentors and mentees. We began our process with <strong>Secondary Research</strong> where we understood the <strong>context of the problem</strong> we were solving.</p>
@@ -74,9 +74,11 @@ class Seekamentor extends Component {
 
 
               <h5 Style="padding-top:3rem;">Research Synthesis</h5>
-              <p> Our process was focused to <strong>understand the pain points and motivations</strong> faced by the mentors as well as the mentees to identify key insights. I conducted semi-structured interviews with 15 mentors and 15 mentees who were interested in mentorships. Then I created an <strong>affinity map to cluster similar themes</strong> together and identify user needs.  </p>
-              <Image Style="padding-bottom:6rem; padding-top:4rem;" src={mentees} fluid />
-              <Image Style="padding-bottom:6rem; padding-top:4rem;" src={mentor} fluid />
+              <p> Our process was focused to <strong>understand the pain points and motivations</strong> faced by the mentors as well as the mentees to identify key insights. I <strong>conducted semi-structured interviews with 15 mentors and 15 mentees</strong> who were interested in the mentorship platform. Then I created an <strong>affinity map to cluster similar themes</strong> together and identify user needs.  </p>
+              <h5 Style="padding-top:3rem;">Journey map of a Mentee</h5>
+              <Image Style="padding-bottom:4rem; padding-top:1rem;" src={mentees} fluid />
+              <h5 Style="padding-top:3rem;">Journey map of a Mentor</h5>
+              <Image Style="padding-bottom:6rem; padding-top:1rem;" src={mentor} fluid />
               <h5 Style="padding-top:3rem;">Themes Observed</h5>
               <Image Style="padding-bottom:4rem; padding-top:4rem;" src={quant111} fluid />
             </Container>
@@ -91,7 +93,6 @@ class Seekamentor extends Component {
             </ul>
           </div>
         </div>
-
 
 
         <div Style="padding: 0 150px">
@@ -157,7 +158,7 @@ class Seekamentor extends Component {
                     src={icon}
                   /> <h4>Measuring success</h4></div>
                 <Figure.Caption>
-                  <p className="iconText">Achieved our biggest goal which was securing a meeting with a mentor within 5 minutes of logging in. Don't believe me? <strong>Try it yourself!</strong></p>
+                  <p className="iconText">Achieved our biggest goal which was securing a meeting with a mentor within 5 minutes of logging in.</p>
 
                 </Figure.Caption>
               </Figure>
