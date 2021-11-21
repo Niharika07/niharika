@@ -44,9 +44,9 @@ class Home extends Component {
           </Card>
         </CardGroup>
         <Card>
-            <Card.Link href="/health"><Card.Img variant="top" src={health} /></Card.Link>
+            <Card.Link><Card.Img variant="top" src={health} /></Card.Link>
             <Card.Body>
-              <Card.Title>Quicker Fixer Upper</Card.Title>
+              <Card.Title>Quicker Fixer Upper (In progress)</Card.Title>
               <Card.Text>
                 <span Style="font-size:24px;color:grey;">Healthcare &middot; UX Design &middot; UX Research</span>
               </Card.Text>
@@ -57,11 +57,7 @@ class Home extends Component {
             </Card.Body>
 
           </Card>
-        <CardGroup>
         
-
-         
-        </CardGroup>
       </div>
     )
   }
