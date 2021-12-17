@@ -30,25 +30,27 @@ class Healthcare extends Component {
       <div className="Healthcare">
         <Image src={health} fluid />
         <div className="projectPadding">
-          <h2 className="Title" Style="font-size:48px;font-weight:700;margin-top:20px;">Quicker Fixer Upper</h2>
+          <h2 className="Title" Style="font-size:48px;font-weight:700;margin-top:20px;">UHealth+</h2>
           <h2 className="Tags mb-4" Style="color:grey;">Healthcare &middot; UX Design &middot; UX Research</h2>
           <span className="Intro" Style="background-color:#F2D785;font-size:24px;">Helping international students find information regarding their healthcare insurance plans without them having to access multiple resources.</span>
           <Container className="Content" fluid>
             <Row>
               <Col>
-                <h5> <strong> Roles and Responsibilties </strong></h5>
-                <h6> <li>UX Research - Surveys, Competitive Analysis, Interviews, Affinity Mapping</li></h6>
-                <h6> <li>UX Design - Wireframing, Prototyping, Usability Testing</li></h6>
+                <h4> <strong> Roles and Responsibilties </strong></h4>
+                <h6> <li>UX Research - Surveys, Interviews, Persona Creation, Empathy Map, Journey Mapping</li></h6>
+                <h6> <li>UX Design - Sketches, Wireframing, Prototyping, Usability Testing</li></h6>
               </Col>
               <Col>
-                <h5> <strong> Project Context </strong></h5>
+                <h4> <strong> Project Context </strong></h4>
                 <h6> <li>Fall 2021</li></h6>
                 <h6><li>Collaboration with - Innovation Hub</li></h6>
+                <h6><li>Team: Samantha Balajadia, Eleen Gong, Austin Go, Shalette Dsouza, Jamal Elkouka</li></h6>
               </Col>
               <Col>
-                <h5><strong> Tools used </strong></h5>
+                <h4><strong> Tools used </strong></h4>
                 <h6><li>Figma</li></h6>
-                <h6><li>Miro</li></h6>
+                <h6><li>Mural</li></h6>
+                <h6><li>Notion</li></h6>
               </Col>
             </Row>
           </Container>
@@ -57,24 +59,24 @@ class Healthcare extends Component {
         <div Style="background-color:#e0d9c1;padding-bottom:3rem;margin-bottom:5rem;">
           <div className="projectPadding">
             <h5 className="quote"><i>“I didn’t know I was paying so much money for healthcare coverage I didn’t even know I had!”</i></h5>
-            <p>Imagine being in a <strong>new country</strong>, being <strong>unfamiliar with the healthcare system</strong> and experiencing this.</p>
-          </div></div>
+            <p>Imagine being in a <strong>new country</strong>, being <strong>unfamiliar with the healthcare system</strong> and <strong>feeling lost</strong>.</p>
+          </div>
+       </div>
 
-        <div className="projectPadding">
+        <div className="projectPadding" Style="padding-bottom:5rem">
           <div className="problem">
             <Container fluid>
-              <Row className="mb-1 d-flex justify-content-center" Style="padding-bottom:2rem">
+              <Row className="mb-1 d-flex justify-content-center">
                 <Col xs={12} md={5}><h5>The Problem<Image src={problem} fluid width="35px;" Style="margin-left:10px;"/></h5> <p>The current state of accessing information regarding international students health insurance plans places the <strong>burden of finding accurate healthcare information on international students with little to no guidance</strong>. </p> </Col>
                 <Col md={2}></Col>
                 <Col xs={12} md={5}> <h5>The Solution<Image src={solution} fluid width="35px;" Style="margin-left:10px;"/></h5> <p>An app that allows international students <strong>access information about their health coverage plans without having to go through multiple resources</strong>.</p>
                 </Col>
               </Row>
             </Container>
-   
           </div>
         </div>
 
-        <div Style="background-color:#87774d;padding-top:4rem;color:white;padding-bottom:4rem;">
+        <div Style="background-color:#87774d;padding-top:5rem;color:white;padding-bottom:5rem;">
           <div className="projectPadding">
             <h5>Understanding our Users</h5>
             <p> We thought it would be best to start out with some <strong>secondary research</strong> with a handful of websites that gave us the information we were looking for, such as <strong>UofT and insurance partner websites</strong>.</p>
@@ -107,38 +109,44 @@ class Healthcare extends Component {
             <Row>
               <Col><Image src={persona} fluid /></Col>
             </Row>
-          </Container>
-
-        
+          </Container>   
           </div>
-          <Container Style="display: flex;justify-content: center;padding-top:2rem;">
+
+          <div className="projectPadding" Style="padding-top:5rem;">
+          <p>To further <strong>identify the major struggles</strong> of Issa while seeking healthcare service, we had to <strong>put ourselves in her shoes</strong>.</p>
+          </div>       
+          <Container Style="display: flex;justify-content: center;">
             <Row>
               <Col><Image src={journey} fluid /></Col>
             </Row>
           </Container>
-          <div className="projectPadding" Style="padding-top:6rem;padding-bottom:4rem;">
-          <h5>Ideation</h5> <p>Based on our persona's journey and pain points, we envisioned potential solutions by sketching ideas and clustering them together. We voted and prioritized the ideas based on impact and feasibility. </p>
+          <div className="projectPadding" Style="padding-top:3rem;">
+          <p>Our team identified the major issues that students face while seeking healthcare service to be <strong>scattered information, information overload and clinic selection</strong>.</p>
+          </div>
+
+          <div className="projectPadding" Style="padding-top:4rem;padding-bottom:5rem;">
+          <h5>Ideation</h5> <p>Now that we knew the struggles faced by International students, we began <strong>envisioning potential solutions to help them get the care they need</strong> by sketching ideas and clustering them together. We voted and prioritized the ideas based on impact and feasibility. </p>
           
-          <Container Style="display: flex;justify-content: center;padding-bottom:6rem;">
+          <Container Style="display: flex;justify-content: center;padding-bottom:5rem;">
             <Row>
               <Col><Image src={ideas} fluid /></Col>
             </Row>
           </Container>
             
           
-          <p>We decided to go with 2 homerun ideas - <i>'Find a Clinic'</i> and <i>'Personalized Dashboard'</i> that scored a high impact and high feasibility along with 1 quick win idea - <i>'Search your Coverage'</i> with moderate impact and moderate feasibility.</p>
-          <Image src={features} fluid />
+          <p>We decided to go with <strong>2 homerun ideas</strong> - <i>'Find a Clinic'</i> and <i>'Personalized Dashboard'</i> that scored a high impact and high feasibility along with <strong>1 quick win idea</strong> - <i>'Search your Coverage'</i> with moderate impact and moderate feasibility.</p>
+          <Image src={features} fluid Style="padding-top:1rem;"/>
           </div>
-          <div Style="background-color:#f2f7f2;padding-top:6rem;padding-bottom:2rem;">
+          <div Style="background-color:#f2f7f2;padding-top:5rem;padding-bottom:2rem;">
           <div className="projectPadding" >
-          <h5>Prototyping</h5> <p>From there, we started ideating our lo-fi prototypes and went through multiple iterations. We decided to design a mobile app due to it being more accessible on the go.</p>
+          <h5>Prototyping</h5> <p>From there, we started ideating our lo-fi prototypes and went through <strong>multiple iterations</strong>. We decided to design a mobile app due to it being more <strong>accessible on the go</strong>.</p>
          
           <Row Style="margin-bottom:4rem;">
             <Col xs={12} md={6}><Image src={iteration1} fluid /></Col>
             <Col xs={12} md={6}> <Image src={iteration2} fluid /></Col>
           </Row>
           
-          <p>With our design goals to guide us, we decided to narrow our focus. Below are the other alternatives we had:</p>
+          <p>With our design goals to guide us, we decided to <strong>narrow our focus</strong>. Below are the other alternatives we had:</p>
           <Row Style="margin-bottom:4rem;">
             <Col xs={12} md={6}> <h4><strong className="highlight">Alternative #1</strong></h4><Image src={alt1} fluid /><p><strong>Issue:</strong> Focus is on accessing information, not navigation</p></Col>
             <Col xs={12} md={6}> <h4><strong className="highlight">Alternative #2</strong></h4><Image src={alt2} fluid /><p><strong>Issue:</strong> Potential to cause information overload</p></Col>
@@ -146,7 +154,7 @@ class Healthcare extends Component {
           </div></div>
           <div className="projectPadding" Style="padding-top:5rem;">
           <h5>Turning User Goals Into Actionable Designs</h5>
-          <p Style="margin-bottom:2rem;" >After multiple iterations, & conducting lean evaluation, we created our mid-fi prototype. Here’s a high-level overview of the screens. Let’s dive deeper into the features.</p>
+          <p Style="margin-bottom:2rem;" >After multiple iterations, and conducting lean evaluation, we created our mid-fi prototype. Here’s a high-level overview of the screens. Let’s dive deeper into the features.</p>
           <Row Style="margin-bottom:5rem;">
             <h4><strong className="highlight">Login, Search, Filter</strong></h4>
             <p> <ul>
@@ -157,24 +165,24 @@ class Healthcare extends Component {
           </Row>
 
           <Row Style="margin-bottom:5rem;">
-              <h4><strong className="highlight">View & Bookmark a Clinic</strong></h4>
+              <h4><strong className="highlight">View and Bookmark a Clinic</strong></h4>
             <p> <ul>
-                <li> The bookmark feature would ensure that the users only have to go through the process once.  </li>
+                <li> The bookmark feature would ensure that the users only have to <strong>go through the process once</strong>.  </li>
               </ul></p>
              <Image src={p2} fluid /> 
           </Row>
 
           <Row Style="margin-bottom:6rem;">
-          <h4><strong className="highlight">Access Coverage Card & Service Details</strong></h4>
+          <h4><strong className="highlight">Access Coverage Card and Service Details</strong></h4>
             <p> <ul>
-                <li>Lastly, by providing users with their insurance card details, and services covered, we would provide them with all necessary information in one place. </li>
+                <li>Lastly, by providing users with their insurance card details, and services covered, we would provide them with <strong> their personalized information in one place</strong>. </li>
               </ul></p>
            <Image src={p3} fluid /> 
           </Row>
           </div>
-        
-          <div className="projectPadding">        
-          <h5>Evaluation</h5> <p>To evaluate the prototype, we conducted Usability testing remotely with 6 international students in presence of 1 moderator and 1 notetaker. We used System Usability Scale (SUS) to measure Satisfaction and NASA Task load Index (NASA TLX) to measure Cognitive Load. </p>
+          <div Style="background-color:#f2f7f2;padding-top:5rem;padding-bottom:5rem;">
+          <div className="projectPadding" >        
+          <h5>Evaluation</h5> <p>To evaluate the prototype, we conducted <strong>Usability testing remotely with 6 international students</strong> in presence of 1 moderator and 1 notetaker. We used <strong>System Usability Scale (SUS) to measure Satisfaction</strong> and <strong>NASA Task load Index (NASA TLX) to measure Cognitive Load</strong>. </p>
          <p>Here’s a brief overview of the process:</p>
          <ul>
            <li>Participants were given a brief about the project and asked to think-aloud.</li>
@@ -182,10 +190,10 @@ class Healthcare extends Component {
            <li>After completion of each scenario, we asked them to fill 2 surveys.</li>
            <li>At the end, we interviewed them to understand what went well and what didn’t.</li>
          </ul>
-         <p>We received the below insights:</p>
+         <p>Overall the participants felt <strong>confident using the app</strong> and we received the following insights:</p>
     <Image src={results} fluid /> 
         </div>
-
+        </div>
         <div className="projectPadding" Style="margin-top:6rem;">        
           <h5>Next Steps</h5> <p > In our next steps, we would first explore adding <strong>additional personas</strong> such as:</p>
           <Image src={next1} fluid />
@@ -196,12 +204,13 @@ class Healthcare extends Component {
         <div className="projectPadding" Style="margin-top:6rem;">        
           <h5>Reflections</h5> 
           <Image src={team2} fluid Style="margin-bottom:3rem;"/>
-          <p>
-            <ul>
-              <li>This project started when 6 international students tried to maximise their insurance and were lost in the process. Working on this project was extremely meaningful since we were tackling a real-world challenge that existed widely. </li>
-              <li>It was my first experience working end-to-end on a design process where I learnt the importance of continuous iteration and feedback. </li>
-              <li> I remember our professor, Olivier mentioned in the beginning of the class how some students find groups they stick with for the entire program, I was fortunate enough to be a part of one such group.</li>
-              </ul></p>
+       
+    
+             
+             <p> <h4><strong>Squad Goals</strong></h4> As we were getting started with this course, I remember our professor mentioning how some students find groups they stick with for the entire program, I was fortunate enough to be a part of one such group. </p>
+             <p> <h4><strong>Design is an Iterative process</strong></h4>It was my first experience working end-to-end on a design process where I learnt the importance of continuous iteration and feedback. </p>
+              <p Style="margin-bottom:3rem;"><h4><strong>Creating an Impact</strong></h4> This project started when 6 international students tried to maximise their insurance and were lost in the process. Working on this project was extremely meaningful since we were tackling a real-world challenge that existed widely.</p>
+            
     </div>
       
       </div>

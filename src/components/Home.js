@@ -17,12 +17,12 @@ class Home extends Component {
         <Card>
             <Card.Link href="/health"><Card.Img variant="top" src={health} /></Card.Link>
             <Card.Body>
-              <Card.Title>Quicker Fixer Upper</Card.Title>
+              <Card.Title>UHealth+</Card.Title>
               <Card.Text>
                 <span Style="font-size:24px;color:grey;">Healthcare &middot; UX Design &middot; UX Research</span>
               </Card.Text>
               <Card.Text>
-                <span Style="font-size:20px;">How can international students access health coverage information easily?</span><br />
+                <span Style="font-size:20px;">How can international students receive the healthcare they need without feeling lost?</span><br />
                 Designing a mobile application for international students to find relevant information about their coverage without having to access multiple resources.
               </Card.Text>
             </Card.Body>
