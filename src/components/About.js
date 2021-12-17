@@ -15,7 +15,7 @@ class About extends Component {
 
           <Col xs={12} md={6} >
              
-          <p Style="font-size:16px;"> Since the beginning of my formative years, I grew up amidst diverse cultures and met people from different backgrounds. My budding interest in Science led me to pursue a bachelor's degree in Information Technology from SRM University. My ease at understanding information systems logically and practically has compelled me to use them as a tool in <strong>solving real-life challenges</strong>. Going forward I want to improve the way humans interact with novel technologies and information systems. </p>
+          <p Style="font-size:16px;"> Since the beginning of my formative years, I grew up amidst diverse cultures and met people from different backgrounds. My budding interest in Science led me to pursue a bachelor's degree in Information Technology from SRM University. My ease at understanding information systems logically and practically has compelled me to use them as a tool in <strong>solving real-life challenges</strong>. Going forward I want to <strong>improve the way humans interact with novel technologies and information systems</strong>. </p>
 
             <p Style="font-size:16px;">With <strong>over 3 years of experience</strong> building digital products in Banking and Education domain by studying the subtle dynamics of human interactions of varied users, I bring empathy, user-centred mindset and problem-solving skills to address complex scenarios and task flows. Teamwork and collaboration with cross-functional teams are some of my strong footholds.  </p>
 

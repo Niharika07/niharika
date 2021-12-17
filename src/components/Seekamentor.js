@@ -32,7 +32,7 @@ class Seekamentor extends Component {
               </Col>
               <Col>
                 <h5> <strong> Project Context </strong></h5>
-                <h6> <li>Apr 2021 - Aug 2021</li></h6>
+                <h6> <li>Summer 2021</li></h6>
                 <h6><li>Client - EdTech Startup</li></h6>
               </Col>
               <Col>

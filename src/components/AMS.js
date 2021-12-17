@@ -7,6 +7,7 @@ import landing from "../assets/AMS/landing.jpg";
 import searchAccounts from "../assets/AMS/searchAccounts.jpg";
 import details from "../assets/AMS/details.jpg";
 import team from "../assets/AMS/team.png"
+import useCase from "../assets/AMS/useCase.png"
 import outcome from "../assets/AMS/outcome.png"
 import teamTwo from "../assets/AMS/teamTwo.jpg";
 import icon from "../assets/AMS/icon.png"
@@ -123,7 +124,7 @@ class AMS extends Component {
             Show history of all actions that have been performed.</p>
             </Col>
           </Row>
-
+          <Image src={useCase} fluid />
 
           <h5 className="projectTopic">Converting Insights into Designs</h5>
           <p>The bank had a <strong>design system in place so that even though each application in the bank served a different purpose, they resonated in form and appearance</strong>. I used the components from the design system for developing my prototypes.</p>

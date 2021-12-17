@@ -60,6 +60,10 @@ p{
   background: linear-gradient(to top, #a1dce0 30%, transparent 50%);
 }
 
+.highlightEval{
+  background: linear-gradient(to top, #a9cab3 30%, transparent 50%);
+}
+
 .iconText{
   max-width: 500px;
 }
