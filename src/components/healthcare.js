@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Image from 'react-bootstrap/Image'
 import health from "../assets/Healthcare/health.png";
-import persona from "../assets/Healthcare/persona.png";
+import persona from "../assets/Healthcare/Persona.png";
 import ideas from "../assets/Healthcare/ideas.png";
 import iteration1 from "../assets/Healthcare/iteration1.png";
 import iteration2 from "../assets/Healthcare/iteration2.png";
