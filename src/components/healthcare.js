@@ -85,7 +85,7 @@ class Healthcare extends Component {
             <Image src={issues} width="900px;" fluid />
           </div></div>
 
-        <div Style="padding:50px 100px;">
+        <div className="paddingQuotes">
           <p><i>It was clear through our research that International students are confused when navigating health coverage information.</i></p>
           <Container fluid>
             <Row className="mb-1 d-flex justify-content-center" Style="padding-bottom:4rem">
@@ -182,7 +182,7 @@ class Healthcare extends Component {
           </div>
           <div Style="background-color:#f2f7f2;padding-top:5rem;padding-bottom:5rem;">
           <div className="projectPadding" >        
-          <h5>Evaluation</h5> <p>To evaluate the prototype, we conducted <strong>Usability testing remotely with 6 international students</strong> in presence of 1 moderator and 1 notetaker. We used <strong>System Usability Scale (SUS) to measure Satisfaction</strong> and <strong>NASA Task load Index (NASA TLX) to measure Cognitive Load</strong>. </p>
+          <h5>Evaluation</h5> <p>To evaluate the prototype, we conducted <strong>Usability testing remotely with 16 international students</strong> in presence of 1 moderator and 1 notetaker. We used <strong>System Usability Scale (SUS) to measure Satisfaction</strong> and <strong>NASA Task load Index (NASA TLX) to measure Cognitive Load</strong>. </p>
          <p>Here’s a brief overview of the process:</p>
          <ul>
            <li>Participants were given a brief about the project and asked to think-aloud.</li>

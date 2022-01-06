@@ -1,7 +1,11 @@
 .projectPadding{
   padding: 0 250px;
-  
 }
+
+.paddingQuotes{
+  padding:50px 100px;
+}
+
 h5{
 line-height: 1.5;
 font-size: 30px;
@@ -86,5 +90,7 @@ video {
   .projectPadding, .seekData{
     padding: 0 20px;
   }
- 
+  .paddingQuotes{
+    padding: 20px 20px;
+  }
 }

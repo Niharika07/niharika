@@ -39,7 +39,7 @@ class AMS extends Component {
         <div className="project" Style="margin-bottom:4rem;">
           <h2 className="projectTitle" Style="font-size:48px;font-weight:700;margin-top:20px;">Access Management System</h2>
           <h2 className="projectTags" Style="color:grey;">Banking &middot; UX Design &middot; Frontend development</h2>
-          <span className="projectIntro" Style="background-color:#b8e2ff;font-size:24px;">Redesigning an application feature for an undisclosed European banking client with their Internet banking team to manage the Means of Access that the customers have with the bank.</span>
+          <span className="projectIntro" Style="background-color:#b8e2ff;font-size:24px;">Redesigning an application for a leading European banking client to manage the ways that customers can access their bank accounts.</span>
           <Container className="projectContent" fluid>
             <Row>
               <Col>
@@ -65,12 +65,11 @@ class AMS extends Component {
 
 
           <h5 className="projectTopic">Background</h5>
-          <p>During Summer’2020 I was developing the Front-end as part of modernizing a legacy application, called Access Management System for my client - a leading bank based out of Netherlands, when I realized how the <strong>interface lacked interactivity and usability</strong>. 
-           Owing to which <strong>I took the responsibility of redesigning the application</strong>.
+          <p>During Summer’2020 I was developing the Front-end of a legacy application with the Internet banking team when I realized how the <strong>interface lacked interactivity and usability</strong> and decided to redesign it. 
 
 
           <h5 className="projectTopic">Understanding the Application</h5>
-            Access Management System is an application that was developed 18 years ago. It allowed  the bank employees to manage the Means of Access which the customers have with the bank.</p>
+            Access Management System is an application that was developed 18 years ago. It allowed the bank employees to manage the Means of Access which the customers have with the bank.</p>
           <p><strong>Means of Access are ways through which a person can access their bank account.</strong> The 3 Means of Access which the customers have are:
             <Image src={access} Style="padding-top:3rem;padding-bottom:3rem;" fluid />
             Being one of the financial institutions focused on user-centric design, there were many issues with the application. Some of them being :

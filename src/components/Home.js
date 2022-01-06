@@ -57,7 +57,6 @@ class Home extends Component {
             </Card.Body>
 
           </Card>
-        
       </div>
     )
   }
