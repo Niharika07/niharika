@@ -3,11 +3,16 @@ import { Card, CardGroup } from 'react-bootstrap';
 import ams from "../assets/ams1.png";
 import seekamentor from "../assets/seekamen.png";
 import health from "../assets/health.png";
+import { BsFillSuitHeartFill } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import "./project.css"
 
 class Home extends Component {
   render() {
     return (
+      <div>
       <div className="Home">
         <h1 className="introtext">An emerging <span Style="color:#ff3366"> UX Designer</span> and experienced <span Style="color:#ff3366">Frontend Developer</span>.</h1>
         <h4 className="subtext">Focused on studying the subtle dynamics of human interactions and <strong className="highlightIntro">addressing complex task flows</strong>. Passionate about <strong className="highlightIntro">designing meaningful experiences</strong> that <strong className="highlightIntro">shape how we interact with technology</strong>.</h4>
@@ -26,7 +31,6 @@ class Home extends Component {
                 Designing a mobile application for international students to find relevant information about their coverage without having to access multiple resources.
               </Card.Text>
             </Card.Body>
-
           </Card>
 
           <Card>
@@ -57,7 +61,31 @@ class Home extends Component {
             </Card.Body>
 
           </Card>
-      </div>
+          </div>
+          <div class="footer" Style="height:300px;backgroundColor:#212529;margin-bottom:2rem;margin-top:3rem;" >
+         <p Style="font-size:32px; color:white;padding-top:4rem;">
+           Would you like to <span Style="color:#F6CE54">CONNECT</span>?
+        </p>
+        <p class="text-muted">
+          I'd love that too!
+        </p>
+        <p class="desc" Style="font-size:15px;color:#9CA9B6;">
+          Reach me over<br></br>
+          niharika.sharma@mail.utoronto.ca<br></br>
+        </p> 
+       </div>
+
+       <div class="footer2 h2 p-2">
+       <a href="https://www.linkedin.com/in/niharika-sharma-0b5822b6/" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a> 
+       <a href="https://github.com/Niharika07" target="_blank" rel="noopener noreferrer" Style="padding:0 10px;"><BsGithub /></a>
+       <a href="https://www.instagram.com/niharikasharma07/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+       </div>
+       <p  class="footer2" Style="font-size:18.5px;margin-bottom:3rem;">
+        <i> Designed and developed with <BsFillSuitHeartFill /> and React by Niharika.</i>
+       </p>
+       
+       </div>
+      
     )
   }
 }

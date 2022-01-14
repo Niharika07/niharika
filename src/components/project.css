@@ -70,12 +70,24 @@ video {
   margin: 10px;
 }
 
+.footer{
+  text-align: center;
+  background-color: #212529;
+}
+.footer2{
+  text-align: center;
+}
+
 .highlightIntro{
   background: linear-gradient(to top, #fac8d5 30%, transparent 50%);
 }
 
 .highlightInsights{
   background: linear-gradient(to top, #D3E5BE 30%, transparent 50%);
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 @media screen and (max-width:724px){

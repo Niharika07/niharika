@@ -1,7 +1,11 @@
-.Header, .Home {
+.Header {
   text-align: left;
   padding: 0 70px;
   border-bottom: 1px solid rgb(236, 232, 232);
+}
+.Home {
+  text-align: left;
+  padding: 0 70px;
 }
 .navbar{
   min-height: 15vh;
@@ -43,6 +47,7 @@ h1,h4{
 .card-text{
   font-size: 14px;
 }
+
 @media screen and (max-width:724px){
   .Header, .Home{
     padding: 0 20px;
