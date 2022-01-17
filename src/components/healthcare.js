@@ -14,6 +14,7 @@ import issues from "../assets/Healthcare/issues.png";
 import results from "../assets/Healthcare/results.png";
 import journey from "../assets/Healthcare/journey.png";
 import next1 from "../assets/Healthcare/next1.png";
+import next2 from "../assets/Healthcare/next2.png";
 import goals from "../assets/Healthcare/goals.png";
 import eval1 from "../assets/Healthcare/eval1.jpg";
 import eval2 from "../assets/Healthcare/eval2.jpg";
@@ -256,7 +257,8 @@ class Healthcare extends Component {
         <div className="projectPadding" Style="margin-top:6rem;">
           <h5>Next Steps</h5> <p > In our next steps, we would first explore adding <strong>additional personas</strong> such as:</p>
           <Image src={next1} fluid />
-        
+          <p Style="margin-top:2rem;"> Secondly, we would conduct more iterations and <strong>add the below features</strong> based on the feedback we received from our latest evaluation:</p>
+          <Image src={next2} fluid /> 
         </div>
 
         <div className="projectPadding" Style="margin-top:6rem;">

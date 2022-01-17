@@ -74,7 +74,7 @@ class Seekamentor extends Component {
 
 
               <h5 Style="padding-top:3rem;">Research Synthesis</h5>
-              <p> Our process was focused to <strong>understand the pain points and motivations</strong> faced by the mentors as well as the mentees to identify key insights. I <strong>conducted semi-structured interviews with 15 mentors and 15 mentees</strong> who were interested in the mentorship platform. Then I created an <strong>affinity map to cluster similar themes</strong> together and identify user needs.  </p>
+              <p> Our process was focused to <strong>understand the pain points and motivations</strong> faced by the mentors as well as the mentees to identify key insights. I <strong>conducted semi-structured interviews with 15 mentors and 15 mentees</strong> who were interested in the mentorship platform. Then I created an <strong>affinity map to cluster similar themes</strong> together and <strong>identify user needs</strong>.  </p>
               <h5 Style="padding-top:3rem;">Journey map of a Mentee</h5>
               <Image Style="padding-bottom:4rem; padding-top:1rem;" src={mentees} fluid />
               <h5 Style="padding-top:3rem;">Journey map of a Mentor</h5>

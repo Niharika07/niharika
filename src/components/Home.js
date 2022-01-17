@@ -3,6 +3,7 @@ import { Card, CardGroup } from 'react-bootstrap';
 import ams from "../assets/ams1.png";
 import seekamentor from "../assets/seekamen.png";
 import health from "../assets/health.png";
+import engroup from "../assets/engroup.png";
 import { BsFillSuitHeartFill } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
@@ -47,6 +48,7 @@ class Home extends Component {
             </Card.Body>
           </Card>
         </CardGroup>
+        <CardGroup>
           <Card>
             <Card.Link href="/ams"><Card.Img variant="top" src={ams} /></Card.Link>
             <Card.Body>
@@ -59,8 +61,21 @@ class Home extends Component {
                 Redesigning an application feature for an undisclosed European banking client with their Internet banking team to help the customers of the bank manage their means of access.
               </Card.Text>
             </Card.Body>
-
           </Card>
+          <Card>
+            <Card.Link href="/engroup"><Card.Img variant="top" src={engroup} /></Card.Link>
+            <Card.Body>
+              <Card.Title>Engroup</Card.Title>
+              <Card.Text>
+                <span Style="font-size:24px;color:grey;">Community Service &middot; UX Design &middot; UX Research</span>
+              </Card.Text>
+              <Card.Text>
+                <span Style="font-size:20px;">How might we connect high school students with the community and make them feel involved?</span><br />
+                Designing a community service mobile application to foster an inclusive experience for students who want to volunteer and help their local community.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
           </div>
           <div class="footer" Style="height:300px;backgroundColor:#212529;margin-bottom:2rem;margin-top:3rem;" >
          <p Style="font-size:32px; color:white;padding-top:4rem;">
