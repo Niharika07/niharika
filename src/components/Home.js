@@ -78,7 +78,7 @@ class Home extends Component {
         </CardGroup>
           </div>
           <div class="footer" Style="height:300px;backgroundColor:#212529;margin-bottom:2rem;margin-top:3rem;" >
-         <p Style="font-size:32px; color:white;padding-top:4rem;">
+         <p Style="font-size:32px; color:white;padding-top:5rem;">
            Would you like to <span Style="color:#F6CE54">CONNECT</span>?
         </p>
         <p class="text-muted">
