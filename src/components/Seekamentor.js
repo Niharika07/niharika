@@ -4,8 +4,6 @@ import mainSeekamentor from "../assets/Seekamentor/mainSeekamentor.png";
 import { Container, Row, Col, Figure, Carousel } from 'react-bootstrap';
 import quant from "../assets/Seekamentor/quant.png";
 import quant111 from "../assets/Seekamentor/quant111.png";
-import mentees from "../assets/Seekamentor/Mentees.jpg"
-import mentor from "../assets/Seekamentor/Mentor.jpg"
 import mentor1 from "../assets/Seekamentor/mentor1.png"
 import mentor2 from "../assets/Seekamentor/mentor2.png"
 import mentor3 from "../assets/Seekamentor/mentor3.png"
