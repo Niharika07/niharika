@@ -1,11 +1,19 @@
 import React, { Component } from "react"
 import Image from 'react-bootstrap/Image'
 import mainSeekamentor from "../assets/Seekamentor/mainSeekamentor.png";
-import { Container, Row, Col, Figure } from 'react-bootstrap';
+import { Container, Row, Col, Figure, Carousel } from 'react-bootstrap';
 import quant from "../assets/Seekamentor/quant.png";
 import quant111 from "../assets/Seekamentor/quant111.png";
 import mentees from "../assets/Seekamentor/Mentees.jpg"
 import mentor from "../assets/Seekamentor/Mentor.jpg"
+import mentor1 from "../assets/Seekamentor/mentor1.png"
+import mentor2 from "../assets/Seekamentor/mentor2.png"
+import mentor3 from "../assets/Seekamentor/mentor3.png"
+import mentor4 from "../assets/Seekamentor/mentor4.png"
+import mentee1 from "../assets/Seekamentor/mentee1.png"
+import mentee2 from "../assets/Seekamentor/mentee2.png"
+import mentee3 from "../assets/Seekamentor/mentee3.png"
+import mentee4 from "../assets/Seekamentor/mentee4.png"
 import mock from "../assets/Seekamentor/mock.mov"
 import landing from "../assets/Seekamentor/landing.mov"
 import browsingMentor from "../assets/Seekamentor/browsingMentor.mov"
@@ -75,10 +83,79 @@ class Seekamentor extends Component {
 
               <h5 Style="padding-top:3rem;">Research Synthesis</h5>
               <p> Our process was focused to <strong>understand the pain points and motivations</strong> faced by the mentors as well as the mentees to identify key insights. I <strong>conducted semi-structured interviews with 15 mentors and 15 mentees</strong> who were interested in the mentorship platform. Then I created an <strong>affinity map to cluster similar themes</strong> together and <strong>identify user needs</strong>.  </p>
-              <h5 Style="padding-top:3rem;">Journey map of a Mentee</h5>
-              <Image Style="padding-bottom:4rem; padding-top:1rem;" src={mentees} fluid />
               <h5 Style="padding-top:3rem;">Journey map of a Mentor</h5>
-              <Image Style="padding-bottom:6rem; padding-top:1rem;" src={mentor} fluid />
+              <Carousel variant="dark" Style="padding-top:1rem;padding-bottom:3rem;">
+            <Carousel.Item>
+              <img
+                alt="problem"
+                className="d-block w-100"
+                src={mentor1}
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                alt="behaviour"
+                className="d-block w-100"
+                src={mentor2}
+              />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                alt="tasks"
+                className="d-block w-100"
+                src={mentor3}
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                alt="needs"
+                className="d-block w-100"
+                src={mentor4}
+              />
+
+        
+            </Carousel.Item>
+          </Carousel>
+           
+              <h5 Style="padding-top:3rem;">Journey map of a Mentee</h5>
+              <Carousel variant="dark" Style="padding-top:1rem;padding-bottom:3rem;">
+            <Carousel.Item>
+              <img
+                alt="problem"
+                className="d-block w-100"
+                src={mentee1}
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                alt="behaviour"
+                className="d-block w-100"
+                src={mentee2}
+              />
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                alt="tasks"
+                className="d-block w-100"
+                src={mentee3}
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                alt="needs"
+                className="d-block w-100"
+                src={mentee4}
+              />
+
+        
+            </Carousel.Item>
+          </Carousel>
               <h5 Style="padding-top:3rem;">Themes Observed</h5>
               <Image Style="padding-bottom:4rem; padding-top:4rem;" src={quant111} fluid />
             </Container>

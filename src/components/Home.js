@@ -45,7 +45,7 @@ class Home extends Component {
                 <span Style="font-size:20px;"> How do we bring back the lost practices of mentorship?</span><br />
                 Helping students navigate their career by connecting them with field experts to provide them guidance and support.
               </Card.Text>
-            </Card.Body>
+            </Card.Body> 
           </Card>
         </CardGroup>
         <CardGroup>
@@ -67,7 +67,7 @@ class Home extends Component {
             <Card.Body>
               <Card.Title>Engroup</Card.Title>
               <Card.Text>
-                <span Style="font-size:24px;color:grey;">Community Service &middot; UX Design &middot; UX Research</span>
+                <span Style="font-size:24px;color:grey;">Community Service &middot; UX Design &middot; Prototyping</span>
               </Card.Text>
               <Card.Text>
                 <span Style="font-size:20px;">How might we connect high school students with the community and make them feel involved?</span><br />
