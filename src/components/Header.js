@@ -12,7 +12,7 @@ class Header extends Component {
             <Nav className="ml-auto">
               <Nav.Link href="/">Work</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="https://drive.google.com/file/d/1uvwA6iZ0WsxD9Wb6XP9rMfhZ0A4Wrta1/view?usp=sharing">Resume</Nav.Link>
+              <Nav.Link href="https://drive.google.com/file/d/1kRPXgpBa-SXAZcFtPlNn5ri-Sx_SDSO0/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
