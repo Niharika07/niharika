@@ -17,6 +17,7 @@ import landing from "../assets/Seekamentor/landing.mov"
 import browsingMentor from "../assets/Seekamentor/browsingMentor.mov"
 import bookingMentor from "../assets/Seekamentor/bookingMentor.mov"
 import quote from "../assets/Seekamentor/quote.png";
+import goals from "../assets/Seekamentor/goals.png";
 import "./seek.css"
 import icon from "../assets/AMS/icon.png"
 
@@ -155,20 +156,18 @@ class Seekamentor extends Component {
             </Carousel.Item>
           </Carousel>
               <h5 Style="padding-top:3rem;">Themes Observed</h5>
-              <Image Style="padding-bottom:4rem; padding-top:4rem;" src={quant111} fluid />
+              <Image Style="padding-bottom:4rem; padding-top:2rem;" src={quant111} fluid />
             </Container>
-          </div>
-          <div className="projectPadding" Style="padding-bottom:5rem;">
-            <h5 Style="padding-top:2rem;">Narrowing our scope</h5>
-            <p><strong>Following agile principles</strong> of software development, we decided to narrow down our user goals that we wanted to <strong>focus for MVP1 which are-</strong> </p>
-            <ul Style="font-size:18.5px;">
-              <li>Understanding and fufilling mentee's expectations.</li>
-              <li>Connecting with a mentor who has taken the same journey.</li>
-              <li>Building prolonged relations.</li>
-            </ul>
           </div>
         </div>
 
+        <div className="projectPadding">
+          <h5 className="seekSolution">Design Goals</h5>
+          <p><strong>Following agile principles</strong> of software development, we decided to narrow down our user goals that we wanted to <strong>focus for MVP1 which are-</strong> </p>
+
+          <Image src={goals} rounded fluid />
+        
+        </div>
 
         <div Style="padding: 0 150px">
           <h5 className="seekScreens">Turning User Goals Into Design Ideas</h5>
@@ -250,6 +249,36 @@ class Seekamentor extends Component {
                 </Figure.Caption>
               </Figure>
             </div>
+
+            <div class="d-md-flex justify-content-between">
+              <Figure>
+              <div Style="display: flex; align-items: center;">
+                  <Figure.Image
+                    width={80}
+                    alt="171x180"
+                    src={icon}
+                  /> <h4>Value of Empathy</h4></div>
+                <Figure.Caption>
+                  <p className="iconText"> I learned how to empathize with a user group in a limited time frame by interviewing a diverse set of users that are representative of a whole population.</p>
+
+                </Figure.Caption>
+              </Figure>
+              <Figure>
+                <div Style="display: flex; align-items: center;">
+                  <Figure.Image
+                    width={80}
+                    alt="171x180"
+                    src={icon}
+                  /> <h4>Guided by Data</h4></div>
+                <Figure.Caption>
+                  <p className="iconText">Designing for such a large user base means removing inherent biases and using data to make decisions.</p>
+
+                </Figure.Caption>
+              </Figure>
+
+              
+            </div>
+
           </div></div>
 
       </div>
