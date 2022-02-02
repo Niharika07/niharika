@@ -269,7 +269,7 @@ class Seekamentor extends Component {
                     width={80}
                     alt="171x180"
                     src={icon}
-                  /> <h4>Guided by Data</h4></div>
+                  /> <h4>Data-driven decisions</h4></div>
                 <Figure.Caption>
                   <p className="iconText">Designing for such a large user base means removing inherent biases and using data to make decisions.</p>
 
