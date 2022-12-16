@@ -15,7 +15,7 @@ class Home extends Component {
     return (
       <div>
       <div className="Home">
-        <h1 className="introtext">An emerging <span Style="color:#ff3366"> UX Designer</span> and experienced <span Style="color:#ff3366">Frontend Developer</span>.</h1>
+        <h1 className="introtext">A curious <span Style="color:#ff3366"> Product Designer</span> and experienced <span Style="color:#ff3366">Frontend Developer</span>.</h1>
         <h4 className="subtext">Focused on studying the subtle dynamics of human interactions and <strong className="highlightIntro">addressing complex task flows</strong>. Passionate about <strong className="highlightIntro">designing meaningful experiences</strong> that <strong className="highlightIntro">shape how we interact with technology</strong>.</h4>
        
         <h3 Style="border-bottom: 1px solid rgb(236, 232, 232);color:grey;font-weight:600;margin-top:3rem;padding-bottom:1rem;">My Work</h3>
