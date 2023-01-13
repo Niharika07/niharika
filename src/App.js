@@ -1,12 +1,14 @@
 import React, { Component } from "react"
 import "./App.css"
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
 import AMS from './components/AMS'
 import Seekamentor from './components/Seekamentor'
 import Health from './components/healthcare'
 import Engroup from './components/Engroup'
+import bom from './components/bom'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 class App extends Component {
@@ -22,9 +24,10 @@ class App extends Component {
             <Route path='/seekamentor' component={Seekamentor} />
             <Route path='/health' component={Health} />
             <Route path='/engroup' component={Engroup} />
+            <Route path='/bom' component={bom} />
           </Switch>
         </Router>
-        
+        <Footer />
       </div>
     )
   }
