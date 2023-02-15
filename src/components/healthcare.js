@@ -6,7 +6,7 @@ import insights from "../assets/Healthcare/insights.png";
 import ci from "../assets/Healthcare/ci.png";
 import mfc from "../assets/Healthcare/mfc.png";
 import cfl from "../assets/Healthcare/cfl.png";
-import us from "../assets/Healthcare/us.png";
+import us from "../assets/Healthcare/us.png"; 
 import msf from "../assets/Healthcare/msf.png";
 import mid from "../assets/Healthcare/mid.png";
 import goal from "../assets/Healthcare/goal.png";
@@ -290,7 +290,7 @@ class Healthcare extends Component {
               <li>Bookmark a Clinic</li>
               <li>Find Profile Information</li>
         </ul><br></br>
-        <p Style="padding-bottom:6rem;">We conducted post-task surveys and post-test interviews to capture their attitude and behaviour regarding the application. Participants <strong>liked the overall flow, information organization and easy access to personal healthcare information</strong>. They also found the search, filter and bookmark functions <strong>intuitive</strong>. However, there were also a few issues, which we intend to fix.</p>
+        <p Style="padding-bottom:6rem;">We conducted post-task surveys and post-test interviews to capture their attitude and behaviour regarding the application. Participants <strong>liked the overall flow, information organization and easy access to personal healthcare information</strong>. They also found the search, filter and bookmark functions <strong>intuitive and easy to use</strong>. However, there were also a few issues, which we intend to fix.</p>
 
           <Row Style="margin-bottom:6rem;padding:0 5rem;">
             <h4><strong >Confusing Icons</strong></h4>
@@ -375,7 +375,7 @@ class Healthcare extends Component {
 
 
           <p> <h4><strong>Power of teamwork</strong></h4> As we were getting started with this course, I remember our professor mentioning how some students find groups they stick with for the entire program, I was fortunate enough to be a part of one such group. </p>
-          <p> <h4><strong>Design is an Iterative process</strong></h4>It was my first experience working end-to-end on a design process where I learnt the importance of continuous iteration and feedback. </p>
+          <p> <h4><strong>Design is an iterative process</strong></h4>It was my first experience working end-to-end on a design process where I learnt the importance of continuous iteration and feedback. </p>
           <p Style="margin-bottom:3rem;"><h4><strong>Creating an Impact</strong></h4> This project started when 6 international students tried to maximise their insurance and were lost in the process. Working on this project was extremely meaningful since we were tackling a real-world challenge that existed widely.</p>
 
         </div>
