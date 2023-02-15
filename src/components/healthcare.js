@@ -55,7 +55,7 @@ class Healthcare extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="Healthcare">
-        <Image src={health} fluid />
+        <Image src={health} Style="cursor:default;" fluid />
         <div className="projectPadding">
           <h2 className="Title" Style="font-size:48px;font-weight:700;margin-top:20px;">UHealth+</h2>
           <h2 className="Tags mb-4" Style="color:grey;">Healthcare &middot; UX Design &middot; UX Research</h2>
@@ -318,7 +318,7 @@ class Healthcare extends Component {
         <div className="projectPadding" Style="padding-top:3rem;">
         <h5>Prototype</h5> <p>After receiving valuable feedbacks from our users, I incorporated all the changes and created a high-fidelity clickable prototype.</p>
         <Row Style="margin-bottom:8rem;">
-            <Col xs={12} md={5}>  <video controls autoPlay loop muted>
+            <Col xs={12} md={5}>  <video controls muted>
               <source src={task1} type="video/mp4"></source>
             </video></Col>
             <Col md={2}> </Col>
@@ -339,13 +339,13 @@ class Healthcare extends Component {
 
               </ul></p></Col>
               <Col md={2}> </Col>
-            <Col xs={12} md={5}>  <video controls autoPlay loop muted>
+            <Col xs={12} md={5}>  <video controls muted>
               <source src={task2} type="video/mp4"></source>
             </video></Col>
           </Row>
 
           <Row Style="margin-bottom:8rem;">
-            <Col xs={12} md={5}>  <video controls autoPlay loop muted>
+            <Col xs={12} md={5}>  <video controls muted>
               <source src={task3} type="video/mp4"></source>
             </video></Col>
             <Col md={2}> </Col>
