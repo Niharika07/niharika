@@ -247,7 +247,7 @@ class Healthcare extends Component {
           <h2 Style="font-size:48px;font-weight:700;">Iterative Design</h2><p>From there, we started ideating our lo-fi prototypes and went through <strong>multiple iterations</strong>. We decided to design a mobile app due to it being more <strong>accessible on the go</strong>. We focused on 3 main task flows:</p>
 
             <Row Style="margin-bottom:5rem;">
-            <h4><strong >Login, Search, Filter</strong></h4>
+            <h4><strong >Login, Search and Filter</strong></h4>
             <p> <ul>
               <li>Integrated university ID while login to <strong>build trust in the application</strong> and eliminate the registration process. </li>
               <li> Designed search and filter functions to <strong>find a nearby clinic that bills insurance partners</strong>.</li>
