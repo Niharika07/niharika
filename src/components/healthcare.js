@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Image from 'react-bootstrap/Image'
 import health from "../assets/Healthcare/health.png";
-import persona from "../assets/Healthcare/persona.png";
+import Persona from "../assets/Healthcare/Persona.png";
 import insights from "../assets/Healthcare/insights.png";
 import ci from "../assets/Healthcare/ci.png";
 import mfc from "../assets/Healthcare/mfc.png";
@@ -33,7 +33,7 @@ import "react-image-lightbox/style.css";
 import "./healthcare.css"
 
 const images = [
-  require('../assets/Healthcare/persona.png'),
+  require('../assets/Healthcare/Persona.png'),
   require('../assets/Healthcare/journey.png'),
   require('../assets/Healthcare/p1.png'),
   require('../assets/Healthcare/p2.png'),
@@ -171,7 +171,7 @@ class Healthcare extends Component {
           <p>Through Issa, we were able to better understand the <strong>common motivations, frustrations and behaviours</strong> of our target user group and represent them.</p>
           <Container Style="display: flex;justify-content: center;padding-top:2rem;">
             <Row>
-              <Col><Image onClick={() => this.setState({ photoIndex: 0, isOpen: true })} src={persona} Style="cursor:pointer;" fluid /></Col>
+              <Col><Image onClick={() => this.setState({ photoIndex: 0, isOpen: true })} src={Persona} Style="cursor:pointer;" fluid /></Col>
             </Row>
           
           </Container>
