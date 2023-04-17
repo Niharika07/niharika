@@ -19,7 +19,7 @@ import p2 from "../assets/Healthcare/p2.png";
 import p3 from "../assets/Healthcare/p3.png";
 import features from "../assets/Healthcare/features.png";
 import team2 from "../assets/Healthcare/team2.jpg";
-import secondary from "../assets/Healthcare/secondary.png";
+
 import journey from "../assets/Healthcare/journey.png";
 import imagine from "../assets/Healthcare/imagine.png";
 import next1 from "../assets/Healthcare/next1.png";
@@ -105,11 +105,7 @@ class Healthcare extends Component {
           
             <p className="projectTopic" Style="font-size:50px;"><strong>User Research</strong></p>
             <p> Our secondary research revealed that <strong>international students have two types of plans that offer different services</strong> – UHIP (University Health Insurance Plan) and Supplementary Plans. Details regarding healthcare insurance plans and services were <strong>scattered across multiple websites</strong>, making it hard to find relevant information when needed.</p>
-            <Container Style="display: flex;justify-content: center;padding-top:2rem;padding-bottom:4rem;">
-            <Row>
-              <Col><Image src={secondary} Style="cursor:default;" fluid /></Col>
-            </Row>
-          </Container>
+          
             <p>Then, we lead our <strong>primary research</strong> in the form of <strong>online surveys and semi-structured interviews. </strong>We recruited international students of varying education levels from all three campuses (St George, Scarborough and Mississauga) to understand their issues with healthcare. 
             <Container Style="display: flex;justify-content: center; padding-top:5rem; padding-bottom:4rem;">
             <Row>
@@ -284,12 +280,12 @@ class Healthcare extends Component {
           
         <h2 className="projectTopic" Style="font-size:48px;font-weight:700;">Usability Testing</h2>
        <p>To evaluate the prototype, we conducted <strong>Usability testing remotely with 16 international students</strong> in presence of 1 moderator and 1 notetaker. We asked each participant to think-aloud as they completed the following tasks: </p>
-       <ul>
+  {/*  <ul>
               <li>Log in and Find a Clinic for a General Check-Up</li>
               <li>Apply Filters to the Search Results</li>
               <li>Bookmark a Clinic</li>
-              <li>Find Profile Information</li>
-        </ul><br></br>
+              <li>Find Profile Information</li> 
+            </ul><br></br>*/}
         <p Style="padding-bottom:6rem;">We conducted post-task surveys and post-test interviews to capture their attitude and behaviour regarding the application. Participants <strong>liked the overall flow, information organization and easy access to personal healthcare information</strong>. They also found the search, filter and bookmark functions <strong>intuitive and easy to use</strong>. However, there were also a few issues, which we intend to fix.</p>
 
           <Row Style="margin-bottom:6rem;padding:0 5rem;">
