@@ -19,7 +19,7 @@ class App extends Component {
         <Header />
         <Router>
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/niharika' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/ams' component={AMS} />
             <Route path='/seekamentor' component={Seekamentor} />
