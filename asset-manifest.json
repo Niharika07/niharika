@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/niharika/static/css/main.342cf715.css",
-    "main.js": "/niharika/static/js/main.edc1555b.js",
+    "main.js": "/niharika/static/js/main.16bd2df1.js",
     "static/media/landing.mov": "/niharika/static/media/landing.7b11991027f1d89ba358.mov",
     "static/media/mock.mov": "/niharika/static/media/mock.a44c64217d7dc4f0a1fa.mov",
     "static/media/browsingMentor.mov": "/niharika/static/media/browsingMentor.f19530b8f894415ed176.mov",
@@ -71,10 +71,10 @@
     "static/media/landing.jpg": "/niharika/static/media/landing.adc3df3644353e419cdb.jpg",
     "index.html": "/niharika/index.html",
     "main.342cf715.css.map": "/niharika/static/css/main.342cf715.css.map",
-    "main.edc1555b.js.map": "/niharika/static/js/main.edc1555b.js.map"
+    "main.16bd2df1.js.map": "/niharika/static/js/main.16bd2df1.js.map"
   },
   "entrypoints": [
     "static/css/main.342cf715.css",
-    "static/js/main.edc1555b.js"
+    "static/js/main.16bd2df1.js"
   ]
 }
